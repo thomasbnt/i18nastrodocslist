@@ -9,7 +9,7 @@ This script will add a checkbox before each list item in a post. This is useful 
 ## How to install it ?
 
 1. Install **[Tampermonkey](https://www.tampermonkey.net/)** or similar extension which enables the browser to run Userscripts.
-2. Copy the code in *[AddCheckboxBeforeLi.js](AddCheckboxBeforeLi.js)* as a **Tampermonkey** script. 
+2. Copy the code in *[AddCheckboxBeforeLi.user.js](AddCheckboxBeforeLi.user.js)* as a **Tampermonkey** script. 
 3. Activate the script.
 
 ### Already have Tampermonkey or alternative ?
