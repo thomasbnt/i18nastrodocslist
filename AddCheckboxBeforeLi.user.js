@@ -4,7 +4,7 @@
 // @version 0.1
 // @description Automatically add before lists checkboxes on the Astro documentation.
 // @author Thomas Bnt
-// @icon https://icons.duckduckgo.com/ip3/astro.build.ico
+// @icon https://www.google.com/s2/favicons?sz=64&domain=astro.build
 // @match https://i18n.docs.astro.build/*
 // @homepageURL https://github.com/thomasbnt/i18nastrodocslist
 // @updateURL    https://raw.githubusercontent.com/thomasbnt/i18nastrodocslist/main/AddCheckboxBeforeLi.user.js
