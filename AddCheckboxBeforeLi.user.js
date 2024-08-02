@@ -15,11 +15,24 @@
 // ==/UserScript==
 
 (function () {
+  function saveCheckboxState(checkboxId, isChecked) {
+    localStorage.setItem(checkboxId, isChecked);
+  }
+
+  function getCheckboxState(checkboxId) {
+    return localStorage.getItem(checkboxId) === 'true';
+  }
+
   document.querySelectorAll('li').forEach((li) => {
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
-    checkbox.id = li.textContent;
-    checkbox.checked = false;
+
+    const checkboxId = li.textContent.trim();
+    checkbox.id = checkboxId;
+    checkbox.checked = getCheckboxState(checkboxId);
+    checkbox.addEventListener('change', () => {
+      saveCheckboxState(checkboxId, checkbox.checked);
+    });
     li.prepend(checkbox);
   });
 })();
