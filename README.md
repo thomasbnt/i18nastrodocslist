@@ -4,7 +4,7 @@ This script will add a checkbox before each list item in a post. This is useful 
 
 > **Note**
 >
-> This script was created for [i18n.docs.astro.build](https://i18n.docs.astro.build/).
+> This script was created for [i18n.docs.astro.build](https://i18n.docs.astro.build/) and [i18n.starlight.astro.build](https://i18n.starlight.astro.build/)
 
 ![Preview of the script in action](https://github.com/user-attachments/assets/84428b1a-8db6-433a-b3ee-98a1fad832ef)
 
